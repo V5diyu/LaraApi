@@ -16,6 +16,7 @@
 });*/
 
 Route::get('/', 'TopicsController@index')->name('root');
+//Route::get('try', function () { return ['try' => env('DB_DATABASE')]; })->name('try');
 
 /*Auth::routes();*/
 /*Route::get('/home', 'HomeController@index')->name('home');*/
